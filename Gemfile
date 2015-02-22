@@ -3,6 +3,7 @@ ruby '2.1.3'
 
 gem 'rails', '4.1.8'
 gem 'pg'
+gem 'bootstrap-sass', '~> 3.3.3'
 gem 'devise', '~> 3.4.1'
 gem 'cancancan', '~> 1.10.1'
 gem 'sass-rails', '~> 4.0.3'
