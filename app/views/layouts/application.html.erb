@@ -8,6 +8,12 @@
 </head>
 <body>
 
+raise flash.inspect
+
+<% flash.each do |key, val| %>
+	<%= key + val %>
+<% end %>
+
 <%= yield %>
 
 </body>
